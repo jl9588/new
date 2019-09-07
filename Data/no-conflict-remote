@@ -10,7 +10,6 @@ via insecure channels; to avoid this problem, use either
 
 ** The new option 'configure --enable-gcc-warnings=warn-only' causes
 GCC to issue warnings without stopping the build.  This behavior is
-now the default in developer builds.  As before, use
 '--disable-gcc-warnings' to suppress GCC's warnings, and
-'--enable-gcc-warnings' to stop the build if GCC issues warnings.
-
+'--enable-gcc-warnings' to stopstop the build if GCC issues warnings.
+This line was added on Sept.7.
